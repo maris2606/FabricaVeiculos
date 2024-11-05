@@ -75,6 +75,15 @@ public class Caminhao extends Veiculo {
 		}
 	}
 
+	public void exibirInformacoes() {
+		System.out.println("Modelo do caminhao: " + this.modelo);
+		System.out.println("Marca do caminhao: " + this.marca);
+		System.out.println("Cor do caminhao: " + this.cor);
+		System.out.println("Renavam: " + this.renavam);
+		System.out.println("Condutor do caminhao: " + this.condutor.getNome());
+		System.out.println();
+	}
+
 	@Override
 	public String toString() {
 		return "Caminhao [carga=" + carga + ", eixos=" + eixos + ", marca=" + marca + ", modelo=" + modelo + ", cor="

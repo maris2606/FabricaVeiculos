@@ -31,10 +31,6 @@ public class Veiculo {
 		this.condutor = condutor;
 	}
 
-	public void abastecer(Combustivel combustivel, double qtd) {
-
-	}
-
 	public String getMarca() {
 		return marca;
 	}
