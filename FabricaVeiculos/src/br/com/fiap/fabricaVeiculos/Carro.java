@@ -26,8 +26,8 @@ public class Carro extends Veiculo {
 		System.out.println("Marca do carro: " + this.marca);
 		System.out.println("Cor do carro: " + this.cor);
 		System.out.println("Renavam: " + this.renavam);
-		System.out.println("Capacidade do tanque: " + this.capacidadeDoTanque);
-		System.out.println("Capacidade de rodagem: " + this.capacidadeDeRodagem);
+		System.out.println("Capacidade do tanque: " + this.capacidadeDoTanque + " l");
+		System.out.println("Capacidade de rodagem: " + this.capacidadeDeRodagem + " km/h");
 		System.out.println("Condutor do carro: " + this.condutor.getNome());
 		System.out.println();
 	}

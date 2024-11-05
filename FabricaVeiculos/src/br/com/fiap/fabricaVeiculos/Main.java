@@ -53,6 +53,7 @@ public class Main {
 		// instanciando Caminhao
 		Caminhao caminhao1 = new Caminhao("Mercedes-Benz", "Actros", "Branco", "2020", "2021", "123456789-1", motor3,
 				"Automático", "22.5", 90.0, condutor3, carga1, 4);
+		
 		System.out.println("-----------------------------------------------");
 		// informacoes do caminhao
 		System.out.println("\tInformacoes do caminhao:\n");
