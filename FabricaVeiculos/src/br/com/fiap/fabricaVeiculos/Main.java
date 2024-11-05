@@ -5,9 +5,9 @@ public class Main {
 	public static void main(String[] args) {
 
 		// instanciando Condutor
-		Condutor condutor1 = new Condutor("Emerson", "111.222-3", "991234567", "10/10/1990");
-		Condutor condutor2 = new Condutor("Adriane Colossetti", "222.333-4", "987886544", "08/08/1995");
-		Condutor condutor3 = new Condutor("Joao da Silva ", "333.444-3", "975443312", "17/08/1993");
+		Condutor condutor1 = new Condutor("Emerson", "1112223334-3", "991234567", "10/10/1990");
+		Condutor condutor2 = new Condutor("Adriane Colossetti", "4445556667-4", "987886544", "08/08/1995");
+		Condutor condutor3 = new Condutor("Joao da Silva ", "8889990102-3", "975443312", "17/08/1993");
 
 		// instanciando Motor
 		Motor motor1 = new Motor("A jato", 70);
@@ -51,7 +51,7 @@ public class Main {
 		Carga carga1 = new Carga(100, 0, "Granel");
 
 		// instanciando Caminhao
-		Caminhao caminhao1 = new Caminhao("Mercedes-Benz", "Actros", "Branco", "2020", "2021", "123456789", motor3,
+		Caminhao caminhao1 = new Caminhao("Mercedes-Benz", "Actros", "Branco", "2020", "2021", "123456789-1", motor3,
 				"Automático", "22.5", 90.0, condutor3, carga1, 4);
 		System.out.println("-----------------------------------------------");
 		// informacoes do caminhao
