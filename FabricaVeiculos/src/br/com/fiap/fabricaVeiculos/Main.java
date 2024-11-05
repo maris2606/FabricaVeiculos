@@ -10,9 +10,9 @@ public class Main {
 		Condutor condutor3 = new Condutor("Joao da Silva ", "8889990102-3", "975443312", "17/08/1993");
 
 		// instanciando Motor
-		Motor motor1 = new Motor("A jato", 70);
-		Motor motor2 = new Motor("A jato", 70);
-		Motor motor3 = new Motor("Estacionário", 400);
+		Motor motor1 = new Motor("1.0", 70);
+		Motor motor2 = new Motor("2.0", 70);
+		Motor motor3 = new Motor("1.0", 400);
 
 		// instanciando Carro
 		Carro carro1 = new Carro("Toyota", "Corolla", "Preto", "01/01/2022", "01/01/2023", "1234567890", motor1,
